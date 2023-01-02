@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Kenia&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-y: hidden;
+}
+
+body {
+  background: #495579;
+  text-align: center;
+  font-family: 'Kenia', cursive;
+}
+
+h1 {
+  font-size: 100px;
+  color: #E8F3D6;
+  margin-top: 50px;
+}
+
+.instrument-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.instrument {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 6rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #4C6793;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 220px;
+  height: 220px;
+  text-align: center;
+  margin: 10px;
+  background-color: #F5EBE0;
+  cursor: pointer;
+
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 200px;
+
+}
+
+.instrument.active {
+  background-size: 70px;
+  border: none;
+}
+
+.w {
+  background-image: url(../images/snare.png);
+}
+
+.a {
+  background-image: url(../images/guitar.png);
+}
+
+.s {
+  background-image: url(../images/harp.png);
+}
+
+.d {
+  background-image: url(../images/tambourine.png);
+}
+
+.j {
+  background-image: url(../images/triangle.png);
+}
+
+.k {
+  background-image: url(../images/maracas.png);
+}
+
+.l {
+  background-image: url(../images/crash.png);
+}
+
+footer {
+  margin-top: 200px;
+  font-size: 20px;
+}
